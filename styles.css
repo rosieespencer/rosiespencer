@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation bar styles */
+nav {
+    background-color: #2e434f;
+    color: #fff3de;
+    list-style: none;
+    display: flex;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: left;
+    column-gap: 2rem;
+}
+
+.nav-links :visited, :link {
+    color:#fff3de;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.nav-links :hover, :active{
+    color: #759da9;
+    text-decoration: none;
+}
+
+/* Home page styles */
+.intro {
+    background-color: #759da9;
+    color: #fff3de;
+}
+
+.home-about {
+    background-color: #8ea249;
+    color: #a15d35;
+}
+
+.home-projects {
+    background-color: #fff3de;
+    color: #a15d35;
+}
