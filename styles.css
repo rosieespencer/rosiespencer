@@ -102,4 +102,33 @@ nav {
     margin-bottom: 0;
     padding-top: 4rem;
     padding-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-imgs {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    column-gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+figcaption {
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Footer styles */
+footer {
+    background-color: #2e434f;
+    color: #fff3de;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
